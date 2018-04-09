@@ -35,6 +35,7 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #include "ColorScaleWidget.h"
 
 #include "DialogLoadGRIB.h"
+#include "DialogLoadGribMeteoFrance.h"
 #include "DialogServerStatus.h"
 #include "DialogProxy.h"
 #include "DialogUnits.h"
@@ -90,6 +91,7 @@ public slots:
         void slotFile_Close ();
         void slotFile_Load_GRIB ();
 		
+        void slotFile_Load_GRIB_MeteoFrance ();
         void slotFile_GribServerStatus ();
         void slotFile_Info_GRIB ();
         void slotFile_Quit ();

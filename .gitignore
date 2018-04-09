@@ -10,3 +10,17 @@ data/config
 *.zip
 *.app
 .qmake.stash
+build-xyGrib-*
+build-xyGrib-*
+cscope.files
+tags
+index.sh
+build
+cscope.out
+*~
+*.kdev*
+*.patch
+.DS_Store
+XyGrib.app
+data/config
+xyGrib.pro.user*

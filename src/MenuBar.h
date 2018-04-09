@@ -89,6 +89,7 @@ public:
 	QAction *acFile_NewInstance;
     QAction *acFile_Load_GRIB;
     
+    QAction *acFile_Load_GRIB_MeteoFrance;
     QAction *acFile_GribServerStatus;
     QAction *acFile_Info_GRIB;
     QAction *acFile_Quit;
