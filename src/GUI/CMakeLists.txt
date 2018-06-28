@@ -9,6 +9,7 @@ MeteotableOptionsDialog.ui
 PoiEditorDialog.ui
 PositionEditorWidget.ui
 TextStyleEditorWidget.ui
+LoadGribMeteoFranceDialog.ui
 )
 
 set(GUI_HDRS

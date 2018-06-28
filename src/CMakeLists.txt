@@ -53,6 +53,8 @@ SkewT.h
 Stylesheet.h
 Terrain.h
 Therm.h
+MeteoFranceModel.h
+DialogLoadGribMeteoFrance.h
 #Version.h
 )
 
@@ -102,6 +104,8 @@ SkewTWindow.cpp
 Terrain.cpp
 Therm.cpp
 main.cpp
+MeteoFranceModel.cpp
+DialogLoadGribMeteoFrance.cpp
 )
 IF(WIN32)
   SET(XYGRIB_SRCS ${XYGRIB_SRCS} ../data/img/resource.rc)
